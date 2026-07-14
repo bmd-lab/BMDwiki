@@ -23,7 +23,7 @@ Introductory tutorials for new students.
 
 | Ready for research? <img width=128/>|   Language   | 
 | ---- | --- |
-| Tutorial 12- Using the Vienna Ab initio Simulation Package (VASP)  | [English](https://github.com/bmd-lab/tutorials/wiki/Python-Virtual-Environments)|
+| Tutorial 12- Using the Vienna Ab initio Simulation Package (VASP)  | [English](https://github.com/bmd-lab/tutorials/wiki/VASP)|
 | Tutorial 13- The Special Quasirandom Structures (SQS) Method | [English](https://github.com/bmd-lab/tutorials/wiki/The-SQS-Method) |
 | Tutorial 14- Universal Structure Predictor: Evolutionary Xtallography (USPEX) | [English](https://github.com/bmd-lab/tutorials/wiki/Crystal-Structure-Prediction-Using-USPEX) |
 | Tutorial 15- XtalOpt | [English](https://github.com/bmd-lab/tutorials/wiki/XtalOpt) |
