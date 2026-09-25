@@ -1,1 +1,36 @@
-wiki/ 
+# Local GitHub Wiki clone
+wiki/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+!.env.template
+.envrc
+config.local.*
+credentials.local.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
