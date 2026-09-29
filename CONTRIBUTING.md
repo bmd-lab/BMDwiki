@@ -2,16 +2,39 @@
 
 BMDwiki grows through focused improvements from BMD Lab students and researchers. Small corrections, clearer explanations, and practical examples are welcome.
 
-## Simple workflow
+## Two repositories
+
+BMDwiki consists of two Git repositories:
+
+| Repository | Default branch | Contains |
+| --- | --- | --- |
+| `bmd-lab/BMDwiki.git` (this repository) | `main` | Project and governance files: README, CONTRIBUTING, LICENSE |
+| `bmd-lab/BMDwiki.wiki.git` | `master` | The Markdown pages rendered as the [BMDwiki](https://github.com/bmd-lab/BMDwiki/wiki) |
+
+Do not add copies of wiki pages to this repository.
+
+## Changing the wiki pages
+
+GitHub does not provide normal pull requests for the wiki repository, and
+updating its `master` publishes the wiki immediately.
+
+1. Coordinate the change with a BMD Lab maintainer before starting.
+2. Clone `https://github.com/bmd-lab/BMDwiki.wiki.git` (or update your existing
+   clone).
+3. Create a branch from the current `master` for one focused change.
+4. Make your changes, commit with a short, descriptive message, and push the
+   branch for review.
+5. After review, a maintainer fast-forwards or merges the branch into wiki
+   `master`, which publishes it.
+
+## Changing this repository
 
 1. Clone the repository.
-2. Create a branch for one focused change.
+2. Create a branch from `main` for one focused change.
 3. Make and review your changes.
 4. Commit with a short, descriptive message.
 5. Push your branch.
 6. Open a pull request and briefly explain what changed.
-
-Most student-facing pages live in the GitHub Wiki, which GitHub stores in a separate repository. Coordinate wiki-page changes with a BMD Lab maintainer before starting so they can arrange review and publication. Do not add duplicate copies of wiki pages to this repository.
 
 ## Never commit
 
