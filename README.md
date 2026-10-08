@@ -1,8 +1,9 @@
-# BMDwiki
+# bmd-help
 
-BMDwiki provides documentation, tutorials, and onboarding for BMD Lab students and researchers.
+bmd-help provides documentation, tutorials, and onboarding for Burton Materials
+Discovery Lab students and researchers at Tel Aviv University.
 
-[Open the BMDwiki](https://github.com/bmd-lab/BMDwiki/wiki)
+[Open bmd-help](https://github.com/bmd-lab/bmd-help/wiki)
 
 To suggest an improvement, see [CONTRIBUTING.md](CONTRIBUTING.md).
 

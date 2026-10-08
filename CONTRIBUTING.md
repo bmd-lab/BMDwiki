@@ -1,15 +1,15 @@
-# Contributing to BMDwiki
+# Contributing to bmd-help
 
-BMDwiki grows through focused improvements from BMD Lab students and researchers. Small corrections, clearer explanations, and practical examples are welcome.
+bmd-help grows through focused improvements from Burton Materials Discovery Lab students and researchers. Small corrections, clearer explanations, and practical examples are welcome.
 
 ## Two repositories
 
-BMDwiki consists of two Git repositories:
+bmd-help consists of two Git repositories:
 
 | Repository | Default branch | Contains |
 | --- | --- | --- |
-| `bmd-lab/BMDwiki.git` (this repository) | `main` | Project and governance files: README, CONTRIBUTING, LICENSE |
-| `bmd-lab/BMDwiki.wiki.git` | `master` | The Markdown pages rendered as the [BMDwiki](https://github.com/bmd-lab/BMDwiki/wiki) |
+| `bmd-lab/bmd-help.git` (this repository) | `main` | Project and governance files: README, CONTRIBUTING, LICENSE |
+| `bmd-lab/bmd-help.wiki.git` | `master` | The Markdown pages rendered as the [bmd-help](https://github.com/bmd-lab/bmd-help/wiki) |
 
 Do not add copies of wiki pages to this repository.
 
@@ -18,8 +18,8 @@ Do not add copies of wiki pages to this repository.
 GitHub does not provide normal pull requests for the wiki repository, and
 updating its `master` publishes the wiki immediately.
 
-1. Coordinate the change with a BMD Lab maintainer before starting.
-2. Clone `https://github.com/bmd-lab/BMDwiki.wiki.git` (or update your existing
+1. Coordinate the change with a Burton Materials Discovery Lab maintainer before starting.
+2. Clone `https://github.com/bmd-lab/bmd-help.wiki.git` (or update your existing
    clone).
 3. Create a branch from the current `master` for one focused change.
 4. Make your changes, commit with a short, descriptive message, and push the
@@ -45,4 +45,4 @@ updating its `master` publishes the wiki immediately.
 - Student or personal records
 - Deployment-local credentials or configuration
 
-If a credential is committed accidentally, report it to a BMD Lab maintainer immediately so it can be revoked and removed correctly. Deleting it in a later commit is not sufficient because it remains in Git history.
+If a credential is committed accidentally, report it to a Burton Materials Discovery Lab maintainer immediately so it can be revoked and removed correctly. Deleting it in a later commit is not sufficient because it remains in Git history.
